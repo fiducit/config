@@ -1,0 +1,17 @@
+{
+	"name": "fiducit/config",
+	"description": "Basic Application Config Lib in PHP",
+	"type": "library",
+	"autoload": {
+		"psr-4": {
+			"FiducIT\\Config\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Levi Jacobs",
+			"email": "kontakt@levi-jacobs.de"
+		}
+	],
+	"require": {}
+}
