@@ -7,7 +7,7 @@ namespace FiducIT\Config;
 class ConfigBuilderFactory implements ConfigBuilderFactoryInterface
 {
 	public function __construct(
-		private readonly ?ConfigFactoryInterface $configFactory
+		private readonly ?ConfigFactoryInterface $configFactory = null
 	) {
 	}
 
